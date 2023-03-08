@@ -7,6 +7,7 @@ func main() {
 	j := true
 	l := 0xf
 	u := 0xF13
+	b := 0x42F
 	var k float64 = 123.456
 
 	fmt.Printf("%v\n", i)
@@ -15,7 +16,7 @@ func main() {
 	fmt.Printf("%t\n", j)
 	fmt.Printf("%t\n", j)
 	fmt.Printf("%b\n", i)
-	fmt.Printf("\u042F\n")
+	fmt.Printf("%v#\n", b)
 	fmt.Printf("%d\n", i)
 	fmt.Printf("%o\n", i)
 	fmt.Printf("%x\n", l)
