@@ -1,0 +1,21 @@
+saat pertama kali membuat project dengan bahasa go kita harus menginisialisasi project tersebut dengan go modules dengan cara
+• go mod init <nama-project>
+
+jika kita ingim menjalankan program yang kita buat kita bisa menjalankan command go run pada CLI
+• go run <namafile>.go
+
+Jika ada banyak file yang package-nya main dan file-file tersebut berada pada satu direktori level denganfile utama,
+maka eksekusinya adalah dengan menuliskan semua file sebagai argument command go run. contoh jika kita punya file main.go
+dan library.go dengan package sama sama main maka untuk menjalankan nya dengan
+go run main.go library.go
+sehingga keduanya dieksekusi
+
+command selanjutnya yaitu untuk mencompile program yang dibuat sehingga membentuk file executable (.exe) yaitu dengan cara
+• go build
+
+command selanjutnya untuk mendownload package (seperti pip pada python) dengan cara
+• go get <webpackage>
+misal
+go get github.com/gin-gonic/gin
+Untuk mengunduh dependensi versi terbaru, gunakan flag -u pada command go get,
+go get -u github.com/gin-gonic/gin
