@@ -1,0 +1,8 @@
+CREATE DATABASE books
+
+CREATE TABLE bookDatas (
+    id SERIAL PRIMARY KEY,
+    title varchar(50) NOT NULL,
+    author varchar(50) NOT NULL,
+    des varchar(255) NOT NULL
+    );
