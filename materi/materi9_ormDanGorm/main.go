@@ -14,7 +14,7 @@ GORM memungkinkan pengguna untuk melakukan operasi CRUD dmenggunakan method yang
 
 CRUD pada GORM
 Create untuk create
-First untuk Read
+First untuk Read 1 data, jika banyak gunakan find()
 Update untuk update
 Delete untuk delete
 
